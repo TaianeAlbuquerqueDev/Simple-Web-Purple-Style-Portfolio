@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    background-color: #0f0f0f;
+
+}
+
+a:hover {
+    color: #a855f7;
+}
+
+.home {
+    transition: all ease 1s;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav {
+    display: flex;
+    gap: 10px;
+}
+
+nav a {
+    color: #cccccc;
+    text-decoration: none;
+    transition: all ease 1s;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.apresentacao {
+    background-color: #1a0533;
+    background-image: radial-gradient(circle at 50% 50%, #3b0764 0%, #1a0533 70%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding: 80px;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.apresentacao h1 {
+    font-size: 3.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
+}
+
+.apresentacao p {
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #c084fc;
+}
+
+.cards {
+    background-color: #3b0764;
+    display: flex;
+    padding: 100px;
+    justify-content: center;
+    gap: 45px;
+    text-align: center;
+    flex-grow: 1;
+
+}
+
+.efeito {
+    transition: all ease 1s;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #000000;
+    border: 1px solid #3b0764;
+    width: 200px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.efeito h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #c084fc;
+}
+
+.efeito:hover {
+    background-color: #3b0764;
+    scale: 1.2;
+    box-shadow: 0px 8px 24px #a855f7;
+    border-color: #a855f7;
+}
+
+img {
+    width: 80px;
+    filter: invert(1) brightness(0.8) sepia(1) hue-rotate(240deg) saturate(5);
+}
+
+footer {
+    background-color: #0f0f0f;
+    color: #ffffff;
+    padding: 32px;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    border-top: 1px solid #3b0764;
+
+}
